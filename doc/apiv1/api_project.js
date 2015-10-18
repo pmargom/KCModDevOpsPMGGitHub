@@ -1,0 +1,1 @@
+define({  "name": "Nodepop",  "version": "0.1.0",  "description": "Máster Keepcoding Bootcamp 2015  - Módulo JavaScript, Node.js, Express, MongoDB",  "sampleUrl": false,  "apidoc": "0.2.0",  "generator": {    "name": "apidoc",    "time": "2015-10-04T15:47:57.584Z",    "url": "http://apidocjs.com",    "version": "0.13.1"  }});

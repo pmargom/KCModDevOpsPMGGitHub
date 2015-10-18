@@ -1,0 +1,11 @@
+{
+  "ERROR_RETRIEVING_DATA": "Error during retrieving data",
+  "ADMIN_ZONE_ACCESS_OK": "Admin zone access successfully",
+  "ERROR_AUTHENTICATION_FAILED_USER_NOT_FOUND": "Authentication failed. User not found.",
+  "ERROR_AUTHENTICATION_FAILED_WRONG_PASSWORD": "Authentication failed. Wrong password.",
+  "TOKEN_GENERATED": "Your token was generated successfully.",
+  "ERROR_VALIDATION": "Validation error: Please, review data provided.",
+  "ERROR_CHECKING_PRIMARY_KEY": "Error during checking primary key.",
+  "ERROR_USER_NOT_FOUND": "User not found.",
+  "ERROR_DURING_SAVING": "Error during savind data."
+}

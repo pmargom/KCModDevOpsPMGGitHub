@@ -1,0 +1,12 @@
+{
+	"ERROR_RETRIEVING_DATA": "Error durante la recuperación de los datos.",
+	"ADMIN_ZONE_ACCESS_OK": "Acceso a la zona admin satisfactoria.",
+	"ERROR_AUTHENTICATION_FAILED_USER_NOT_FOUND": "Error de autenticación. Usuario no encontrado.",
+	"ERROR_AUTHENTICATION_FAILED_WRONG_PASSWORD": "Error de autenticación. Contraseña incorrecta.",
+	"TOKEN_GENERATED": "Su token fue generado con éxito.",
+	"ERROR_VALIDATION": "Error de validación: Por favor, revise los datos proporcionados.",
+	"ERROR_CHECKING_PRIMARY_KEY": "Error al comprobar clave primeria.",
+	"ERROR_USER_NOT_FOUND": "Usuario no encontrado",
+	"ERROR_DURING_SAVING": "Error al guardar los datos.",
+	"ERROR_PRIMARY_KEY_VIOLATION": "ERROR_PRIMARY_KEY_VIOLATION"
+}
