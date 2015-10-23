@@ -44,12 +44,12 @@ var Usuario = mongoose.model('Usuario');
 router.post('/', function(req, res){
 
    // recogemos los valores globales de la cabecera
-   let language = req.headers.language || 'en_us'; // si no se ha especificado un idioma, usamos inglés por defecto
+   var language = req.headers.language || 'en_us'; // si no se ha especificado un idioma, usamos inglés por defecto
 
    // recogemos los datos
-   let plataforma = req.body.plataforma;
-   let tokenpush = req.body.tokenpush;
-   let usuario = req.body.usuario;
+   var plataforma = req.body.plataforma;
+   var tokenpush = req.body.tokenpush;
+   var usuario = req.body.usuario;
 
    // validamos los datos
    if ((typeof plataforma === 'undefined') || (typeof tokenpush === 'undefined') || (typeof usuario === 'undefined')) {
