@@ -16,7 +16,7 @@ var usuarioSchema = mongoose.Schema({
 // devolver la lista de usuarios
 usuarioSchema.statics.lista = function(criterios, cb){
 
-   let query = Usuario.find(criterios);
+   var query = Usuario.find(criterios);
 
    query.exec(function(err, rows){
 
@@ -34,7 +34,7 @@ usuarioSchema.statics.lista = function(criterios, cb){
 // la búsqueda se reliza por el email: no pueden existir dos usurios con el mismo email
 usuarioSchema.statics.existe = function(criterios, cb){
 
-   let query = Usuario.find(criterios);
+   var query = Usuario.find(criterios);
 
    query.exec(function(err, rows){
 
