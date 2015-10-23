@@ -85,7 +85,7 @@ router.use(jwtAuth());
  */
 router.get('/', function(req, res) {
 
-   let filters = {};
+   var filters = {};
 
    if (req.query.tag) {
       filters.tags = req.query.tag;
@@ -100,7 +100,7 @@ router.get('/', function(req, res) {
    }
 
    if (req.query.precio) {
-      let precios = req.query.precio.split('-');
+      var precios = req.query.precio.split('-');
       if (precios.length === 2) { // por ejemplo: 10-50, precio entre 10 y 50
 
          filters.precio = {'$gte': precios[0], '$lte': precios[1]};
@@ -114,7 +114,7 @@ router.get('/', function(req, res) {
 
 // opciones de la consulta (paginación, ordenación, etc)
 
-   let options = {};
+   var options = {};
 
    if (req.query.start) {
       options.start = req.query.start;

@@ -148,9 +148,9 @@ router.post('/authenticate', function(req, res) {
 router.post('/register', function(req, res) {
 
    // recogemos los datos
-   let nombre = req.body.nombre;
-   let email = req.body.email;
-   let clave = req.body.clave;
+   var nombre = req.body.nombre;
+   var email = req.body.email;
+   var clave = req.body.clave;
 
    // validamos los datos
    if ((typeof nombre === 'undefined') || (typeof email === 'undefined') || (typeof clave === 'undefined')) {
