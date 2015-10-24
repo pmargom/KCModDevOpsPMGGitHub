@@ -1,3 +1,15 @@
+# DevOps
+
+Máster Keepcoding Bootcamp 2015 - Módulo DevOps.
+El objetivo de esta práctica es deplegar en un servidor el proyecto de desarrolado en el módulo de NodeJS, la aplicación
+Nodepop. A continuación, se comentan algunos detalles sobre la servidor de despliegue:
+
+**Plataforma**: Microsoft Azure.
+**URL de la máquina**:
+  - Express            : <http://pmargom-kc.cloudapp.net/>
+  - API (p.e.: tags)   : <http://pmargom-kc.cloudapp.net/apiv1/tags>
+  - URL estáticos      : <http://pmargom-kc.cloudapp.net/stylesheets/style.css> (Ejercicio1, punto 3).
+
 # NodePop  
 
 Máster Keepcoding Bootcamp 2015 - Módulo JavaScript, Node.js, Express, MongoDB.
