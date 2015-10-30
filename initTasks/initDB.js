@@ -100,7 +100,7 @@ function initAnuncios(cb) {
 
             if (err) {
                console.log(err);
-               return next(err);
+               return cb(err);
             }
          });
       });
@@ -136,7 +136,7 @@ function initUsuarios(cb) {
             //console.log(creado);
             if (err) {
                console.log(err);
-               return next(err);
+               return cb(err);
             }
 
          });
@@ -174,7 +174,7 @@ function initPushTokens(cb) {
 
             if (err) {
                console.log(err);
-               return next(err);
+               return cb(err);
             }
 
          });
